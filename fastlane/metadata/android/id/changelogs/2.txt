@@ -1,0 +1,1 @@
+Rilis pertama di F-Droid: 50 level di 9 dunia, blok drag & drop, mode gambar/kata/kode, variabel dan event, cerita penyelamatan hewan, kostum, petunjuk bertingkat, dan Studio Kreasi untuk membuat game dan cerita interaktif.

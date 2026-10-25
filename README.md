@@ -56,5 +56,16 @@ WorkManager · AGP 9.4 / Gradle 9.8 · compileSdk/targetSdk 37, minSdk 26.
 Unit test memastikan semua level bisa diselesaikan dengan kunci jawabannya, program awal level debug
 memang rusak, dan tantangan harian setahun penuh selalu bisa diselesaikan.
 
-Catatan rilis: build `release` saat ini ditandatangani dengan kunci debug; ganti dengan kunci rilis sendiri
-sebelum publikasi.
+## Rilis & F-Droid
+
+- APK `release` dibuat **tanpa tanda tangan** kecuali ada `keystore.properties` di root proyek (berisi
+  `storeFile`, `storePassword`, `keyAlias`, `keyPassword`; jangan di-commit). F-Droid membangun dan
+  menandatangani APK-nya sendiri.
+- Metadata toko (judul, deskripsi Indonesia & Inggris, ikon, screenshot, changelog) ada di
+  `fastlane/metadata/android/`.
+- Resep build untuk katalog F-Droid ada di `fdroid/com.codingkidz.app.yml` (salin ke
+  `metadata/` di repo fdroiddata).
+
+## Lisensi
+
+GPL-3.0 — lihat [LICENSE](LICENSE).

@@ -1,0 +1,17 @@
+<p>CodingKidz teaches children (ages 4–12) to think like programmers through a story-driven adventure: Bito the robot rescues animals across 9 worlds by following the programs kids build. The app is in Indonesian, works fully offline, and has no ads, accounts, or tracking.</p>
+<p><b>Learn to code</b></p>
+<ul>
+<li>Drag-and-drop block coding — no typing or syntax errors.</li>
+<li>Gradual move to text code: picture blocks (ages 4–6), word blocks (7–9), and blocks side by side with Python or JavaScript (10+).</li>
+<li>50 levels covering sequences, loops, conditionals, while loops, variables, functions, events, debugging, and pixel art — plus a new daily maze.</li>
+<li>Step-by-step mode that highlights each block as Bito moves.</li>
+<li>Debugging challenges with broken programs to fix.</li>
+</ul>
+<p><b>Play and create</b></p>
+<ul>
+<li>Puzzles with many solutions and an extra star for the most efficient code.</li>
+<li>Three-tier hints: a gentle nudge, a specific hint, and only then an example solution.</li>
+<li>Badges, robot costumes unlocked by mastering concepts, and a collection of rescued animals.</li>
+<li>Creative Studio: design your own map, add button and tap events, and make games, animations, or interactive stories.</li>
+<li>Logic quiz and a parent area with progress reports, screen-time limits, and gentle reminders.</li>
+</ul>

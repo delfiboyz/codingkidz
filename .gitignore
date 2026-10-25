@@ -11,3 +11,8 @@
 .cxx/
 *.apk
 *.aab
+
+# Kunci rilis
+keystore.properties
+*.jks
+*.keystore

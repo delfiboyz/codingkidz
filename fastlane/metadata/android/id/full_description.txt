@@ -1,0 +1,17 @@
+<p>CodingKidz mengajak anak (4–12 tahun) berpikir seperti programmer lewat petualangan bercerita: robot Bito menyelamatkan hewan di 9 dunia dengan menjalankan program yang disusun anak. Berfungsi sepenuhnya offline, tanpa iklan, tanpa akun, tanpa pelacakan.</p>
+<p><b>Belajar coding</b></p>
+<ul>
+<li>Pemrograman blok drag &amp; drop — tanpa mengetik, tanpa salah sintaks.</li>
+<li>Transisi bertahap ke kode teks: blok gambar (4–6 th), blok kata (7–9 th), dan blok berdampingan dengan Python atau JavaScript (10+ th).</li>
+<li>50 level: urutan, perulangan, percabangan, ulangi-sampai, variabel, fungsi, event, debugging, dan seni piksel — plus labirin harian.</li>
+<li>Mode langkah demi langkah yang menyorot setiap blok saat Bito bergerak.</li>
+<li>Tantangan debugging berisi program rusak untuk diperbaiki.</li>
+</ul>
+<p><b>Bermain dan berkreasi</b></p>
+<ul>
+<li>Teka-teki dengan banyak solusi dan bintang ekstra untuk kode paling efisien.</li>
+<li>Petunjuk 3 tingkat: dorongan ringan, petunjuk spesifik, lalu contoh solusi.</li>
+<li>Lencana, kostum Bito yang terbuka saat menguasai konsep, dan koleksi hewan yang diselamatkan.</li>
+<li>Studio Kreasi: desain peta sendiri, pasang event tombol dan sentuh, lalu buat game, animasi, atau cerita interaktif.</li>
+<li>Kuis logika dan area orang tua: laporan belajar, batas waktu layar, dan pengingat.</li>
+</ul>

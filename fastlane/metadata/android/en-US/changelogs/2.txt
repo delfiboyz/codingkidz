@@ -1,0 +1,1 @@
+First F-Droid release: 50 levels in 9 worlds, drag-and-drop blocks, picture/word/code modes, variables and events, animal-rescue story, costumes, tiered hints, and a Creative Studio for games and interactive stories.

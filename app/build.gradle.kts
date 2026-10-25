@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -12,8 +14,21 @@ android {
         applicationId = "com.codingkidz.app"
         minSdk = 26
         targetSdk = 37
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
+    }
+
+    // Kunci rilis dibaca dari keystore.properties (tidak di-commit). Tanpa file itu APK release
+    // dibuat tanpa tanda tangan — sesuai kebutuhan F-Droid yang menandatangani sendiri.
+    val keystoreFile = rootProject.file("keystore.properties")
+    if (keystoreFile.exists()) {
+        val props = Properties().apply { keystoreFile.inputStream().use { load(it) } }
+        signingConfigs.create("release") {
+            storeFile = rootProject.file(props.getProperty("storeFile"))
+            storePassword = props.getProperty("storePassword")
+            keyAlias = props.getProperty("keyAlias")
+            keyPassword = props.getProperty("keyPassword")
+        }
     }
 
     buildTypes {
@@ -24,9 +39,14 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
-            // Ganti dengan signing config rilis milikmu sebelum publikasi ke Play Store.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfigs.findByName("release")?.let { signingConfig = it }
         }
+    }
+
+    // F-Droid menolak blob "dependency metadata" terenkripsi milik Google di dalam APK.
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
     }
 
     compileOptions {
